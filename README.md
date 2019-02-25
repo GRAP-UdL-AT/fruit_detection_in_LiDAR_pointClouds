@@ -1,7 +1,7 @@
 # Matlab implementation for fruit detection in 3D LiDAR point clouds.
 
 ## Introduction
-This project is a matlab implementation for fruit detection suitable for 3D point clouds acquired with LiDAR sensor Velodyne VLP-16 (Velodyne LIDAR Inc., San Jose, CA, USA). 
+This project is a matlab implementation for fruit detection in 3D point clouds acquired with LiDAR sensor Velodyne VLP-16 (Velodyne LIDAR Inc., San Jose, CA, USA). 
 
 This implementation was used to evaluate the LFuji-air dataset, which contains 3D LiDAR data of 11Fuji apple trees with the corresponding fruit position annotations. Find more information in:
 
