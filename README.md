@@ -23,7 +23,7 @@ Inside the /data folder, save the ground truth and point cloud data (“AllTrees
 
 ### Pre-requisites
 
-* MATLAB R2018 (we have not tested it in other matlab vercions)
+* MATLAB R2018 (we have not tested it in other matlab versions)
 * Computer Vision System Toolbox
 * Statistics and Machine Learning Toolbox
 
