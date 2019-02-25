@@ -102,7 +102,7 @@ Please contact authors to report bugs @ j.gene@eagrof.udl.cat
 
 If you find this implementation or the analysis conducted in our report helpful, please consider citing:
 
-    @article{Gené-Mola2019,
+    @article{Gene-Mola2019,
         Author = {Gen{\'e}-Mola, Jordi and Gregorio, Eduard and Auat Cheein, Fernando and Guevara, Javier and Llorens, Jordi and Sanz-Cortiella, Ricardo and Escol{\`a}, Alexandre and Rosell-Polo, Joan R},
         Title = {Fruit detection, yield prediction and canopy geometric characterization using LiDAR with forced air flow},
         Journal = {Submitted},
