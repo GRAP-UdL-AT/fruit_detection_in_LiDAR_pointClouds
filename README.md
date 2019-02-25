@@ -34,7 +34,7 @@ Save the [LFuji-air dataset](http://www.grap.udl.cat/en/publications/LFuji_air_d
 
 ## Cross-vailidation test (fruit detection)
 
-Open the matlab file *main_CrossVal_Velodyne_fruit_detection.m* and set the following parameters:
+Open the matlab file **_main_CrossVal_Velodyne_fruit_detection.m_** and set the following parameters:
 ```
 directory = $”code_directory”$;  % Write the directory where the code and the /data folder are placed.
 Trials2eval = ${trials_to_evaluate}$;  %List the trials to evaluate
@@ -44,10 +44,10 @@ example:
 directory = 'F:\fruit_detection\vel_air';  
 Trials2eval = {'H1_n_E_O','H1_n_E','H1_n_O','H1_H2_n_E_O','H1_n_af_E_O'}; 
 ```
-Execute the file *main_CrossVal_Velodyne_fruit_detection.m*.
+Execute the file **_main_CrossVal_Velodyne_fruit_detection.m_**.
 
 ## Train (fruit detection)
-Open the matlab file *main_ Velodyne_fruit_detection.m* and set the following parameters:
+Open the matlab file **_main_Velodyne_fruit_detection.m_** and set the following parameters:
 ```
 directory = $”code_directory”$. %Write the directory where the code and the /data folder are placed.
 pcDiectory_txt = strcat(directory, $”training_data_folder”$ ); %Write the name of the training data folder.
@@ -59,10 +59,10 @@ directory = 'F:\fruit_detection\vel_air';
 pcDiectory_txt = strcat(directory, '\data\TrainingData\');
 train = 1;
 ```
-Execute the file *main_ Velodyne_fruit_detection.m*.
+Execute the file **_main_Velodyne_fruit_detection.m_**.
 
 ## Test (fruit detection)
-Open the matlab file *main_ Velodyne_fruit_detection.m* and set the following parameters:
+Open the matlab file **_main_Velodyne_fruit_detection.m_** and set the following parameters:
 ```
 directory = $”code_directory”$. %Write the directory where the code and the /data folder are placed.
 pcDiectory_txt = strcat(directory, $”test_data_folder”$ ); %Write the name of the test data folder.
@@ -74,12 +74,12 @@ directory = 'F:\fruit_detection\vel_air';
 pcDiectory_txt = strcat(directory, '\data\TestData\');
 train = 0;
 ```
-Execute the file *main_ Velodyne_fruit_detection.m*.
+Execute the file **_main_Velodyne_fruit_detection.m_**.
 
 ## Canopy geomtry characterization
 In [[1]]((http://www.grap.udl.cat/en/publications/index.html)), the [LFuji-air dataset](http://www.grap.udl.cat/en/publications/LFuji_air_dataset.html) is used to evaluate the fruit detection performance, but also to compute canopy geometrical measurements such as mean height, mean width, canopy contour, mean canopy cross section and leave area. To compute this canopy geometrical parameters from a 3D LiDAR point cloud, do the following:
 
-Open the matlab file *main_ Velodyne_LA_meanShape.m* and set the following parameters:
+Open the matlab file **_main_Velodyne_LA_meanShape.m_** and set the following parameters:
 ```
 directory = $”code_directory”$;  % Write the directory where the code and the /data folder are placed.
 Trials2eval = ${trials_to_evaluate}$;  %List the trials to evaluate
@@ -89,7 +89,7 @@ example:
 directory = 'F:\fruit_detection\vel_air';  
 Trials2eval = {'H1_n_E_O','H1_n_E','H1_n_O','H1_H2_n_E_O','H1_n_af_E_O'}; 
 ```
-Execute the file *main_ Velodyne_LA_meanShape.m*.
+Execute the file **_main_Velodyne_LA_meanShape.m_**.
 
 ## Authorship
 
