@@ -18,7 +18,7 @@ git clone https://github.com/ GRAP-UdL-AT/fruit_detection_in_LiDAR_pointClouds.g
 ```
 
 Then, create a folder named “data” in the same directory where the code were saved.
-Inside the /data folder, save the “AllTrees_Groundtruth”, “AllTrees_pcloud” available at [LFuji-air dataset](http://www.grap.udl.cat/en/publications/LFuji_air_dataset.html).
+Inside the /data folder, save the ground truth and point cloud data (“AllTrees_Groundtruth” and “AllTrees_pcloud”) available at [LFuji-air dataset](http://www.grap.udl.cat/en/publications/LFuji_air_dataset.html).
 
 
 ### prerequisites
