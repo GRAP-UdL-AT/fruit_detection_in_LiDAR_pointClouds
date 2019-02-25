@@ -14,15 +14,12 @@ This implementation was used to evaluate the LFuji-air dataset, which contains 3
 
 First of all, clone the code
 ```
-git clone https://github.com/GRAP-UdL-AT/kinect_fruit_detection_faster-rcnn.pytorch.git
+git clone https://github.com/ GRAP-UdL-AT/fruit_detection_in_LiDAR_pointClouds.git
 ```
 
-Then, create a folder:
-```
-cd kinect_fruit_detection_faster-rcnn.pytorch && mkdir data
-```
+Then, create a folder named “data” in the same directory where the code were saved.
+Inside the /data folder, save the “AllTrees_Groundtruth”, “AllTrees_pcloud” available at [LFuji-air dataset](http://www.grap.udl.cat/en/publications/LFuji_air_dataset.html).
 
-In the data folder is where datasets and models must be stored
 
 ### prerequisites
 
