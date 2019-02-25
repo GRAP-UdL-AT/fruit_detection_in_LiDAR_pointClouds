@@ -36,8 +36,8 @@ Save the [LFuji-air dataset](http://www.grap.udl.cat/en/publications/LFuji_air_d
 
 Open the matlab file **_main_CrossVal_Velodyne_fruit_detection.m_** and set the following parameters:
 ```
-directory = $”code_directory”$;  % Write the directory where the code and the /data folder are placed.
-Trials2eval = ${trials_to_evaluate}$;  %List the trials to evaluate
+directory = $”code_directory”$;    %Write the directory where the code and the /data folder are placed.
+Trials2eval = ${trials_to_evaluate}$;    %List the trials to evaluate
 ```
 example:
 ```
@@ -49,8 +49,8 @@ Execute the file **_main_CrossVal_Velodyne_fruit_detection.m_**.
 ## Train (fruit detection)
 Open the matlab file **_main_Velodyne_fruit_detection.m_** and set the following parameters:
 ```
-directory = $”code_directory”$. %Write the directory where the code and the /data folder are placed.
-pcDiectory_txt = strcat(directory, $”training_data_folder”$ ); %Write the name of the training data folder.
+directory = $”code_directory”$;   %Write the directory where the code and the /data folder are placed.
+pcDiectory_txt = strcat(directory, $”training_data_folder”$ );   %Write the name of the training data folder.
 train = $logical_number$; %Set this parameter to 1 for training the svm models.
 ```
 example:
@@ -64,8 +64,8 @@ Execute the file **_main_Velodyne_fruit_detection.m_**.
 ## Test (fruit detection)
 Open the matlab file **_main_Velodyne_fruit_detection.m_** and set the following parameters:
 ```
-directory = $”code_directory”$. %Write the directory where the code and the /data folder are placed.
-pcDiectory_txt = strcat(directory, $”test_data_folder”$ ); %Write the name of the test data folder.
+directory = $”code_directory”$;   %Write the directory where the code and the /data folder are placed.
+pcDiectory_txt = strcat(directory, $”test_data_folder”$ );   %Write the name of the test data folder.
 train = $logical_number$; %Set this parameter to 0 to test data using a previously trained svm models.
 ```
 example:
@@ -81,8 +81,8 @@ In [[1]]((http://www.grap.udl.cat/en/publications/index.html)), the [LFuji-air d
 
 Open the matlab file **_main_Velodyne_LA_meanShape.m_** and set the following parameters:
 ```
-directory = $”code_directory”$;  % Write the directory where the code and the /data folder are placed.
-Trials2eval = ${trials_to_evaluate}$;  %List the trials to evaluate
+directory = $”code_directory”$;    % Write the directory where the code and the /data folder are placed.
+Trials2eval = ${trials_to_evaluate}$;    %List the trials to evaluate
 ```
 example:
 ```
