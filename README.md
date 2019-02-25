@@ -5,7 +5,7 @@ This project is a matlab implementation for fruit detection suitable with 3D poi
 
 This implementation was used to evaluate the LFuji-air dataset, which contains 3D LiDAR data of 11Fuji apple trees with the corresponding fruit position annotations. Find more information in:
 
-* [Fruit detection, yield prediction and canopy geometric characterization using LiDAR with forced air flow](http://www.grap.udl.cat/en/publications/index.html).
+* [Fruit detection, yield prediction and canopy geometric characterization using LiDAR with forced air flow [1]](http://www.grap.udl.cat/en/publications/index.html).
 
 
 
