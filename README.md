@@ -32,7 +32,7 @@ Inside the /data folder, save the ground truth and point cloud data (“AllTrees
 * **LFuji-air dataset**: 
 Save the [LFuji-air dataset](http://www.grap.udl.cat/en/publications/LFuji_air_dataset.html) in /data folder.
 
-## Cross-vailidation test (fruit detection)
+## Cross-vailidation (fruit detection)
 
 Open the matlab file **_main_CrossVal_Velodyne_fruit_detection.m_** and set the following parameters:
 ```
