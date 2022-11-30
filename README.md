@@ -112,3 +112,7 @@ If you find this implementation or the analysis conducted in our report helpful,
 ## References
 
 [[1] Gené-Mola J, Gregorio E, Auat Cheein F, Guevara J, Llorens J, Sanz-Cortiella R, Escolà A, Rosell-Polo JR. 2020. Fruit detection, yield prediction and canopy geometric characterization using LiDAR with forced air flow. Computers and Electronics in Agriculture, 168 (2020), 105121. DOI: 10.1016/j.compag.2019.105121](https://doi.org/10.1016/j.compag.2019.105121).
+
+#### Acknowledgements
+This work was partly funded by the Spanish Ministry of Science, Innovation and Universities (grant RTI2018-094222-B-I00[[PAgFRUIT project]]( https://www.pagfruit.udl.cat/en/) by MCIN/AEI/10.13039/501100011033 and by “ERDF, a way of making Europe”, by the European Union).
+
