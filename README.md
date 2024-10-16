@@ -3,7 +3,7 @@
 ## Introduction
 This project is a matlab implementation for fruit detection in 3D point clouds acquired with LiDAR sensor Velodyne VLP-16 (Velodyne LIDAR Inc., San Jose, CA, USA). 
 
-This implementation was used to evaluate the [LFuji-air dataset](http://www.grap.udl.cat/en/publications/lfuji_air_dataset.html), which contains 3D LiDAR data of 11Fuji apple trees with the corresponding fruit position annotations. Find more information in:
+This implementation was used to evaluate the [LFuji-air dataset](http://www.grap.udl.cat/en/publications/lfuji-air-dataset.html), which contains 3D LiDAR data of 11Fuji apple trees with the corresponding fruit position annotations. Find more information in:
 
 * [Fruit detection, yield prediction and canopy geometric characterization using LiDAR with forced air flow [1]](https://doi.org/10.1016/j.compag.2019.105121)
 
